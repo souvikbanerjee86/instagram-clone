@@ -27,6 +27,7 @@ const LoginScreen = ({ navigation }) => {
             onChangeText={(email) => setEmail(email)}
             value={email}
          />
+
          <TextInput
             style={styles.inputStyle}
             placeholder="Password"
@@ -69,11 +70,19 @@ const styles = StyleSheet.create({
       justifyContent: "center",
       margin: 20
    },
+
    inputStyle: {
       padding: 20,
       backgroundColor: "white",
       marginBottom: 10,
-      color: "grey"
+      color: "grey",
+      borderStartWidth: 1,
+      borderEndWidth: 1,
+      borderTopWidth: 1,
+      boderLeftWidth: 1,
+      borderRightWidth: 1,
+      borderBottomWidth: 1,
+      borderColor: "lightgray"
    },
    buttonStyle: {
       marginTop: 10,

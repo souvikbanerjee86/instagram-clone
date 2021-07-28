@@ -84,7 +84,14 @@ const styles = StyleSheet.create({
       padding: 20,
       backgroundColor: "white",
       marginBottom: 10,
-      color: "grey"
+      color: "grey",
+      borderStartWidth: 1,
+      borderEndWidth: 1,
+      borderTopWidth: 1,
+      boderLeftWidth: 1,
+      borderRightWidth: 1,
+      borderBottomWidth: 1,
+      borderColor: "lightgray"
    },
    buttonStyle: {
       marginTop: 10,

@@ -69,7 +69,14 @@ const styles = StyleSheet.create({
       backgroundColor: "white",
       marginBottom: 10,
       color: "grey",
-      borderRadius: 5
+      borderRadius: 5,
+      borderStartWidth: 1,
+      borderEndWidth: 1,
+      borderTopWidth: 1,
+      boderLeftWidth: 1,
+      borderRightWidth: 1,
+      borderBottomWidth: 1,
+      borderColor: "lightgray"
    },
    userView: {
       marginTop: 10,
