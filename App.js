@@ -22,15 +22,7 @@ import CommentScreen from "./components/main/Comment"
 
 const store = createStore(rootReducer, applyMiddleware(thunk))
 
-const firebaseConfig = {
-   apiKey: "AIzaSyDa76bV_jFP6oSh0P-mD61rAKTV3xjbC0Q",
-   authDomain: "instagram-dev-8b5bd.firebaseapp.com",
-   projectId: "instagram-dev-8b5bd",
-   storageBucket: "instagram-dev-8b5bd.appspot.com",
-   messagingSenderId: "714162039620",
-   appId: "1:714162039620:web:224ef15eaa2978c4aa8511",
-   measurementId: "G-GELD5SJ5DQ"
-}
+const firebaseConfig ='DEMO'
 
 firebase.initializeApp(firebaseConfig)
 
